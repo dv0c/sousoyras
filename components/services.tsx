@@ -7,12 +7,7 @@ const services = [
       "Αξιόπιστες και γρήγορες μεταφορές εντός Ελλάδας, με πλήρη παρακολούθηση του φορτίου.",
     icon: Truck,
   },
-  {
-    title: "Διεθνείς Αποστολές",
-    description:
-      "Συνεργασία με αξιόπιστους διεθνείς φορείς για ασφαλείς αποστολές σε όλη την Ευρώπη.",
-    icon: Globe,
-  },
+
   {
     title: "Ειδικές Μεταφορές",
     description:
@@ -38,7 +33,7 @@ const Services = () => {
           επιχείρησής σας, με ασφάλεια, ταχύτητα και αξιοπιστία.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service, index) => (
             <div
               key={index}

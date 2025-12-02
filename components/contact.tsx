@@ -42,7 +42,7 @@ const Contact = () => {
         {/* Optional Map */}
         <div className="mt-16 rounded-2xl overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50352.04464734421!2d21.311933657519518!3d37.93036525922106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1360a606aaaaaaab%3A0xbb56922fa04fb665!2zzqPPhM-BzrHPhM65z4nPhM65zrrPjCDOkc61z4HOv860z4HPjM68zrnOvyDOkc69zrTPgc6xzrLOr860zrHPgg!5e0!3m2!1sel!2sgr!4v1764695892322!5m2!1sel!2sgr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6303.402203715327!2d21.29102781803906!3d37.820469537427805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1360baa4074f9a57%3A0x500bd2ce2bad3c0!2sSavalia%20272%2000!5e0!3m2!1sen!2sgr!4v1764700826646!5m2!1sen!2sgr"
             width="100%"
             height="400"
             style={{ border: 0 }}

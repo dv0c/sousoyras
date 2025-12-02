@@ -18,9 +18,9 @@ const Footer = () => {
             />
           </div>
           <p className="text-gray-400 leading-relaxed max-w-md">
-            Η <span className="font-semibold text-white"> Sousouras Trans </span> 
+            Η <span className="font-semibold text-white"> Sousouras Trans </span>
             προσφέρει αξιόπιστες και ολοκληρωμένες υπηρεσίες μεταφοράς σε όλη την Ελλάδα
-            και το εξωτερικό. Με εμπειρία, συνέπεια και ασφάλεια, μεταφέρουμε το φορτίο σας 
+            και το εξωτερικό. Με εμπειρία, συνέπεια και ασφάλεια, μεταφέρουμε το φορτίο σας
             εκεί που πρέπει – <span className="text-white font-semibold">Απλά και Σίγουρα</span>.
           </p>
         </div>
@@ -31,15 +31,11 @@ const Footer = () => {
           <ul className="space-y-3 text-gray-400">
             <li className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-primary" />
-              <span>+30 210 000 0000</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <Mail className="w-5 h-5 text-primary" />
-              <span>info@sousourastrans.gr</span>
+              <span>+30 6978 534210</span>
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
-              <span>Αθήνα, Ελλάδα</span>
+              <span>Σαβάλια Ηλείας, Ελλάδα</span>
             </li>
           </ul>
         </div>
@@ -62,12 +58,20 @@ const Footer = () => {
         <p className="mb-3 md:mb-0">
           © {new Date().getFullYear()} Sousouras Trans. Όλα τα δικαιώματα διατηρούνται. Powered by <a className="hover:underline" href="https://meindesk.gr/" target="_blank">Meindesk.</a>
         </p>
-        <a
-          href="/terms"
-          className="hover:text-white transition text-gray-400"
-        >
-          Όροι Χρήσης & Πολιτική Απορρήτου
-        </a>
+        <div className="space-x-3">
+          <a
+            href="/terms"
+            className="hover:text-white transition text-gray-400"
+          >
+            Όροι Χρήσης & Πολιτική Απορρήτου
+          </a>
+          <a
+            href="/legal"
+            className="hover:text-white transition text-gray-400"
+          >
+            Oικονομικά και Nομικά στοιχεία
+          </a>
+        </div>
       </div>
     </footer>
   )
