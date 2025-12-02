@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav
       className={`fixed w-full z-20 bg-black/70 shadow-md top-0 transition-all duration-300 backdrop-blur-md`}
     >
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="container justify-center mx-auto px-6 py-4 flex items-center md:justify-between">
         {/* Logo */}
         <Link href="/">
           <Image
@@ -28,17 +28,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#about" className="hover:text-primary transition">
+            <Link href="/#about" className="hover:text-primary transition">
               Σχετικά
             </Link>
           </li>
           <li>
-            <Link href="#services" className="hover:text-primary transition">
+            <Link href="/#services" className="hover:text-primary transition">
               Υπηρεσίες
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="hover:text-primary transition">
+            <Link href="/#contact" className="hover:text-primary transition">
               Επικοινωνία
             </Link>
           </li>
