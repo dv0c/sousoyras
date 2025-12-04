@@ -60,13 +60,6 @@ export default function Page() {
             3.000€
           </p>
         </div>
-
-        <div className="mt-16 border-t border-border pt-6 text-sm text-center text-muted-foreground">
-          <p>
-            © {new Date().getFullYear()} Sousouras Trans Μονοπρόσωπη Ι.Κ.Ε. – Όλα τα
-            δικαιώματα διατηρούνται.
-          </p>
-        </div>
       </div>
     </main>
   )
